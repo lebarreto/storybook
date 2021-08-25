@@ -1,0 +1,12 @@
+.storybook-checkbox--primary:checked:before {
+  background-color: #0037ff !important;
+}
+.storybook-checkbox--secondary {
+  background-color: #fa6400 !important;
+}
+.storybook-checkbox--primary:checked:focus {
+  background-color: #0037ff;
+}
+.storybook-checkbox--secondary:checked:focus {
+  background-color: #fa6400;
+}
