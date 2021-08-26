@@ -16,22 +16,12 @@ export const Default = Template.bind({});
 Default.args = {
   checked: false,
   disabled: false,
-  color: "default",
   label: "Checkbox",
 };
 
-export const Primary = Template.bind({});
-Primary.args = {
+export const Checked = Template.bind({});
+Checked.args = {
   checked: true,
   disabled: false,
-  color: "primary",
-  label: "Checkbox",
-};
-
-export const Secondary = Template.bind({});
-Secondary.args = {
-  checked: true,
-  disabled: false,
-  color: "secondary",
   label: "Checkbox",
 };
